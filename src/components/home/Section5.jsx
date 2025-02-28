@@ -169,7 +169,7 @@ const Section5 = () => {
             <button
               onClick={prevSlide}
               disabled={currentSlide === 0}
-              className="w-8 h-8 flex items-center justify-center border border-gray-300 rounded-sm disabled:opacity-50"
+              className="cursor-pointer w-8 h-8 flex items-center justify-center border border-gray-300 rounded-sm disabled:opacity-50"
             >
               <span className="sr-only">Previous</span>
               &lt;
@@ -177,7 +177,7 @@ const Section5 = () => {
             <button
               onClick={nextSlide}
               disabled={currentSlide === tours.length - 1}
-              className="w-8 h-8 flex items-center justify-center bg-gray-900 text-white rounded-sm disabled:opacity-50"
+              className="cursor-pointer w-8 h-8 flex items-center justify-center bg-gray-900 text-white rounded-sm disabled:opacity-50"
             >
               <span className="sr-only">Next</span>
               &gt;
@@ -234,8 +234,8 @@ const Section5 = () => {
                         <div className="text-xl rounded-sm border border-black p-2 w-full sm:w-auto text-center ">
                           From ${tour.price}
                         </div>
-                        <button className="bg-primary text-xl text-white font-light px-4 py-2 rounded w-full sm:w-auto text-center">
-                          Book now
+                        <button className="cursor-pointer hover:bg-white hover:text-primary hover:border-primary hover:border-2 bg-primary text-xl text-white font-light px-4 py-2 rounded w-full sm:w-auto text-center">
+                          Book Now
                         </button>
                       </div>
                     </div>

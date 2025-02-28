@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import XIcon from "/assets/vector.svg";
-import Insta from "/assets/insta.svg";
-import Face from "/assets/facebook.svg";
+import XIcon from "../../assets/vector.svg";
+import Insta from "../../assets/insta.svg";
+import Face from "../../assets/facebook.svg";
 
 const Section = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -117,7 +117,7 @@ const Section = () => {
         {/* Hero Section */}
         <div className="">
           <img
-            src="/assets/main-with-design.png"
+            src="./src/assets/main-with-design.png"
             alt="Tropical beach with boats"
             className="w-full h-[45rem] object-cover object-top"
           />
@@ -152,7 +152,7 @@ const Section = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={isTextInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
-              className="font-satoshi text-xl border border-white inline-block py-2 px-5 rounded-sm text-white/90 mb-4"
+              className="font-satoshi cursor-pointer hover:bg-white hover:text-black text-xl border border-white inline-block py-2 px-5 rounded-sm text-white/90 mb-4"
             >
               Explore Now
             </motion.p>
