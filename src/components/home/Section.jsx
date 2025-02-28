@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import XIcon from "../../assets/vector.svg";
-import Insta from "../../assets/insta.svg";
-import Face from "../../assets/facebook.svg";
+import XIcon from "/assets/vector.svg";
+import Insta from "/assets/insta.svg";
+import Face from "/assets/facebook.svg";
 
 const Section = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -117,7 +117,7 @@ const Section = () => {
         {/* Hero Section */}
         <div className="">
           <img
-            src="./src/assets/main-with-design.png"
+            src="/assets/main-with-design.png"
             alt="Tropical beach with boats"
             className="w-full h-[45rem] object-cover object-top"
           />

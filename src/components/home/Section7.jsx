@@ -28,7 +28,7 @@ const Section7 = () => {
       <div
         className="container mx-auto p-2 relative h-[50rem] rounded-lg overflow-hidden bg-cover bg-center"
         style={{
-          backgroundImage: `url(./src/assets/end-cover.jpeg)`,
+          backgroundImage: `url(/assets/end-cover.jpeg)`,
           position: "relative",
         }}
       >
@@ -66,7 +66,7 @@ const Section7 = () => {
 
           <img
             className="cursor-pointer"
-            src="./src/assets/explore-btn.svg"
+            src="/assets/explore-btn.svg"
             alt="Explore Button"
           />
 
@@ -87,12 +87,12 @@ const Section7 = () => {
           <div className="px-14 pb-2 flex flex-col md:flex-row absolute bottom-20 items-center justify-between w-full gap-3">
             <div className="text-2xl">LOGO</div>
             <div className="lg:ml-48 flex gap-2">
-              <img src="./src/assets/icons/1.svg" alt="Icon 1" />
-              <img src="./src/assets/icons/2.svg" alt="Icon 2" />
-              <img src="./src/assets/icons/3.svg" alt="Icon 3" />
-              <img src="./src/assets/icons/4.svg" alt="Icon 4" />
-              <img src="./src/assets/icons/5.svg" alt="Icon 5" />
-              <img src="./src/assets/icons/6.svg" alt="Icon 6" />
+              <img src="/assets/icons/1.svg" alt="Icon 1" />
+              <img src="/assets/icons/2.svg" alt="Icon 2" />
+              <img src="/assets/icons/3.svg" alt="Icon 3" />
+              <img src="/assets/icons/4.svg" alt="Icon 4" />
+              <img src="/assets/icons/5.svg" alt="Icon 5" />
+              <img src="/assets/icons/6.svg" alt="Icon 6" />
             </div>
 
             <div className="flex gap-5">

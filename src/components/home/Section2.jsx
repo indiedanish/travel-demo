@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
-import userIcon from "../../assets/user.svg";
-import calendarIcon from "../../assets/calender.svg";
+import userIcon from "/assets/user.svg";
+import calendarIcon from "/assets/calender.svg";
 
 const Section2 = () => {
   // Updated array with image data including titles and descriptions
